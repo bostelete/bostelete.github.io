@@ -117,3 +117,28 @@ a.urltext:hover{
   cursor: pointer;
 }
 
+
+.big-rounded-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    /* background-color: red; */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.big-rounded-button:hover {
+    background-color: #45a049;
+}
+
+.bg-readable {
+    background-color: black;
+}
+
