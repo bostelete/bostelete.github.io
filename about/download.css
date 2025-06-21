@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../images/downloadbg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: white;
+    font size; 24px;
+    font-weight: bold;
+}
+
+
+
+.big-rounded-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    /* background-color: #4CAF50; */
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.big-rounded-button:hover {
+    background-color: #45a049;
+}
+
+.bg-readable {
+    background-color: black;
+}
+
+
+footer {
+      background-color: #181818;
+      padding: 5px;
+      text-align: center;
+}
+
